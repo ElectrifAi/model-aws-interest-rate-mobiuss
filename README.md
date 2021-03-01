@@ -17,3 +17,4 @@ info@electrifai.net for subscription service pricing.
  
 SKU: INTRT-PS-RMG-AWS-001
 
+AWS SageMaker: https://aws.amazon.com/marketplace/pp/prodview-7hhea2n6qioey
