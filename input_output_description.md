@@ -1,18 +1,18 @@
 # Input/Output Description
-- Input: 1 comma separated csv
-- Details for each csv file:
-    - interest_rate.csv (required)
-        - Required columns:
-            - month_tag: year month
-            - IR: interest rate
 
-    - Note: if end user do not have optional tables, empty CSV with identical columns should be generated to replace missing optional table.
+## Input:
+The client should provide one comma separated (CSV) file in the below format. Reference file: sample.csv
 
+- **_interest_rate.csv _** (*REQUIRED*):
+
+| Column               | Column Required? | Meaning                                     |
+|----------------------|------------------|---------------------------------------------|
+| month_tag            | Y                | year month                                  |
+| IR                   | N                | interest rate                               |
 	
-- Output: a JSON list of objects contaning, for each record in the original order the following fields:
+## Output:
+A list of JSON objects containing the fields listed below. Reference file: sample.csv.out
     - month_tag: year month
     - baseline: interest rates for Baseline scenario
     - optimistic: interest rates for Optimistic scenario
     - pessimistic: interest rates for Pessimistic scenario
- - Reference file: sample.csv.out
-	
