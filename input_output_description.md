@@ -8,7 +8,7 @@ The client should provide one comma separated (CSV) file in the below format. Re
 | Column               | Column Required? | Meaning                                     |
 |----------------------|------------------|---------------------------------------------|
 | month_tag            | Y                | year month                                  |
-| IR                   | N                | interest rate                               |
+| IR                   | Y                | interest rate                               |
 	
 ## Output:
 A list of JSON objects containing the fields listed below. Reference file: sample.csv.out
